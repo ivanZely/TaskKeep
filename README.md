@@ -21,10 +21,51 @@
 ---
 
 ## 🚀 Demo
+![image](https://github.com/user-attachments/assets/c0d4e6b9-ada9-4dcf-8355-263f926ba33c)
 
-> Puedes acceder a una demo en línea (si has desplegado públicamente) o ejecutarla localmente siguiendo los pasos a continuación.
+
+![image](https://github.com/user-attachments/assets/653a9780-dfae-4e96-a470-be5047d84296)
+
+
 
 ---
 
 ## 📁 Estructura del Proyecto
 
+TaskKeep/
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── wait_for_db.sh
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+├── postgres/
+│   ├── Dockerfile
+│   ├── init.sql
+│   └── pg_hba.conf
+│
+├── certs/
+│   ├── fullchain.pem
+│   └── privkey.pem
+│
+├── backup_script.sh
+├── docker-compose.yml
+├── .env
+├── .gitignore
+├── README.md
+└── LICENSE
