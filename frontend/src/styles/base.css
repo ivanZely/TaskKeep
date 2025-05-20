@@ -1,0 +1,21 @@
+/* styles/base.css */
+body {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+button, input {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}

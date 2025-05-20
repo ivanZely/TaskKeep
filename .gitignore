@@ -1,0 +1,15 @@
+# Ignorar dependencias
+node_modules/
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar certificados SSL (opcional si no los quieres subir)
+certs/*.pem
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar dist o build
+dist/
+build/

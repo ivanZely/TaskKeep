@@ -1,0 +1,13 @@
+# Configuración básica de Bandit para análisis estático de seguridad en Python
+skips:
+  - B101  # Uso de assert
+  - B110  # uso de try/except/pass
+
+exclude:
+  - tests
+  - venv
+
+# Otras configuraciones útiles
+recursive: true
+severity: low
+confidence: low

@@ -1,0 +1,46 @@
+/* styles/components.css */
+
+.btn {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.input {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-secondary);
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+  width: 100%;
+}
+
+.card {
+  background-color: var(--color-surface);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-surface);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: var(--radius-sm);
+  border-left: 5px solid var(--color-primary);
+}
+
+.task-item.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+  border-left-color: var(--color-success);
+}
